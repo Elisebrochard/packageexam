@@ -3,7 +3,7 @@ utils::globalVariables(c("diagnostic", "sexe", "age", "cholesterol", "max_bpm", 
 #' Analyser une variable par diagnostic
 #'
 #' @param data Un data frame
-#' @param var_nom Nom de la colonne à analyser (character)
+#' @param var_nom Nom de la colonne a analyser (character)
 #' @param titre_y Titre de l'axe Y (character)
 #' @return Un graphique ggplot2
 #' @export
@@ -13,7 +13,7 @@ analyser_variable <- function(data, var_nom, titre_y) {
   ggplot2::ggplot(data, ggplot2::aes(x = diagnostic, y = .data[[var_nom]], fill = diagnostic)) +
     ggplot2::geom_boxplot() +
     ggplot2::theme_minimal() +
-    ggplot2::labs(title = paste("Analyse de :", var_nom), y = titre_y, x = "État de santé")
+    ggplot2::labs(title = paste("Analyse de :", var_nom), y = titre_y, x = "Etat de sante")
 }
 
 #' Tracer un boxplot pour une variable
@@ -36,7 +36,7 @@ tracer_boxplot <- function(data, var_y, titre_y, couleur = "lightblue") {
     ggplot2::theme_minimal() +
     ggplot2::labs(
       title = paste("Distribution de :", titre_y),
-      x = "État de santé",
+      x = "Etat de sante",
       y = titre_y
     ) +
     ggplot2::theme(legend.position = "none")
@@ -45,8 +45,8 @@ tracer_boxplot <- function(data, var_y, titre_y, couleur = "lightblue") {
 #' Filtrer les patients par sexe et diagnostic
 #'
 #' @param data Un data frame
-#' @param sexe_filtre Sexe à filtrer ("Homme" ou "Femme")
-#' @param diagnostic_filtre Diagnostic à filtrer ("Sain" ou "Malade")
+#' @param sexe_filtre Sexe a filtrer ("Homme" ou "Femme")
+#' @param diagnostic_filtre Diagnostic a filtrer ("Sain" ou "Malade")
 #' @return Un data frame filtre
 #' @export
 filtrer_patients <- function(data, sexe_filtre, diagnostic_filtre) {

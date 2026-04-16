@@ -9,7 +9,7 @@ analyser_variable(data, var_nom, titre_y)
 \arguments{
 \item{data}{Un data frame}
 
-\item{var_nom}{Nom de la colonne à analyser (character)}
+\item{var_nom}{Nom de la colonne a analyser (character)}
 
 \item{titre_y}{Titre de l'axe Y (character)}
 }

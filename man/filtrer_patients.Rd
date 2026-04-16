@@ -9,9 +9,9 @@ filtrer_patients(data, sexe_filtre, diagnostic_filtre)
 \arguments{
 \item{data}{Un data frame}
 
-\item{sexe_filtre}{Sexe à filtrer ("Homme" ou "Femme")}
+\item{sexe_filtre}{Sexe a filtrer ("Homme" ou "Femme")}
 
-\item{diagnostic_filtre}{Diagnostic à filtrer ("Sain" ou "Malade")}
+\item{diagnostic_filtre}{Diagnostic a filtrer ("Sain" ou "Malade")}
 }
 \value{
 Un data frame filtre

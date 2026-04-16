@@ -25,6 +25,6 @@ Un data frame avec 294 lignes et 9 variables :
 packageexam
 }
 \description{
-Données sur les maladies cardiaques issues de la Cleveland Clinic.
+Donnees sur les maladies cardiaques issues de la Cleveland Clinic.
 }
 \keyword{datasets}

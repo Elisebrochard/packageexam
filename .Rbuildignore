@@ -1,4 +1,4 @@
-^renv$
+dev^renv$
 ^renv\.lock$
 ^data-raw$
 ^packageexam\.Rproj$

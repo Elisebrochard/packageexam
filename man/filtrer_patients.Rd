@@ -14,7 +14,7 @@ filtrer_patients(data, sexe_filtre, diagnostic_filtre)
 \item{diagnostic_filtre}{Diagnostic à filtrer ("Sain" ou "Malade")}
 }
 \value{
-Un data frame filtré
+Un data frame filtre
 }
 \description{
 Filtrer les patients par sexe et diagnostic

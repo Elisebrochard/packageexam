@@ -2,7 +2,7 @@
 % Please edit documentation in R/fonctions.R
 \name{stats_par_groupe}
 \alias{stats_par_groupe}
-\title{Calculer des statistiques groupées}
+\title{Calculer des statistiques groupees}
 \usage{
 stats_par_groupe(data, groupe)
 }
@@ -15,5 +15,5 @@ stats_par_groupe(data, groupe)
 Un data frame avec les moyennes par groupe
 }
 \description{
-Calculer des statistiques groupées
+Calculer des statistiques groupees
 }

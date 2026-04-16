@@ -1,3 +1,5 @@
+utils::globalVariables(c("diagnostic", "sexe", "age", "cholesterol", "max_bpm", ".data"))
+
 #' Analyser une variable par diagnostic
 #'
 #' @param data Un data frame

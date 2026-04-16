@@ -6,3 +6,5 @@ dev^renv$
 ^doc$
 ^Meta$
 ^LICENSE\.md$
+^renv$
+^\.Rprofile$

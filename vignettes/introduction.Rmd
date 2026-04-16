@@ -1,0 +1,37 @@
+---
+title: "Introduction à packageexam"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction à packageexam}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(packageexam)
+```
+
+## Le dataset
+
+```{r}
+head(packageexam)
+```
+
+## Filtrer les patients
+
+```{r}
+filtrer_patients(packageexam, "Homme", "Malade")
+```
+
+## Statistiques par groupe
+
+```{r}
+stats_par_groupe(packageexam, "diagnostic")
+```
+
+## Visualisation
+
+```{r}
+analyser_variable(packageexam, "cholesterol", "Taux de Cholestérol")
+```

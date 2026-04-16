@@ -47,14 +47,14 @@ tracer_boxplot <- function(data, var_y, titre_y, couleur = "lightblue") {
 #' @param data Un data frame
 #' @param sexe_filtre Sexe à filtrer ("Homme" ou "Femme")
 #' @param diagnostic_filtre Diagnostic à filtrer ("Sain" ou "Malade")
-#' @return Un data frame filtré
+#' @return Un data frame filtre
 #' @export
 filtrer_patients <- function(data, sexe_filtre, diagnostic_filtre) {
   data |>
     dplyr::filter(sexe == sexe_filtre, diagnostic == diagnostic_filtre)
 }
 
-#' Calculer des statistiques groupées
+#' Calculer des statistiques groupees
 #'
 #' @param data Un data frame
 #' @param groupe Nom de la colonne de groupement (character)

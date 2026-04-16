@@ -3,3 +3,5 @@
 ^data-raw$
 ^packageexam\.Rproj$
 ^\.Rproj\.user$
+^doc$
+^Meta$

@@ -15,3 +15,5 @@ git checkout master
 git commit -m "Commit C"
 git merge branch1 -m "Merge branch branch1"
 git commit -m "Commit D"
+
+# modification via la branche dev
